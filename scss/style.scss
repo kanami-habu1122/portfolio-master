@@ -408,6 +408,37 @@ opacity:0;
   justify-content: space-between;
 }
 
+.image-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-wrapper .div-cover {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 130px;
+  width: 200px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.1);
+  transition-property: transform,box-shadow;
+  transition-duration: 0.2s;
+  margin-bottom: 10px;
+}
+
+.image-wrapper .div-cover:hover{
+  cursor: pointer;
+  transform:scale(1.05,1.05);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3);
+}
+
+.image-wrapper .work-title {
+  text-align: center;
+}
+
+// .image-wrapper{
+//   background-image: url(img/works/thumb/portfolio.png)
+// }
+
 /*--------------------------------
 　About
 ---------------------------------*/
